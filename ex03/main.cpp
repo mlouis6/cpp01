@@ -5,30 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/04 13:33:28 by mlouis            #+#    #+#             */
-/*   Updated: 2025/12/04 14:02:54 by mlouis           ###   ########.fr       */
+/*   Created: 2025/12/04 14:04:22 by mlouis            #+#    #+#             */
+/*   Updated: 2025/12/04 14:04:23 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
-#include <string>
-
-int main(void)
-{
-	std::string		str = "HI THIS IS BRAIN";
-	std::string*	stringPTR = &str;
-	std::string&	stringREF = str;
-
-	std::cout << &str << "\n";
-	std::cout << stringPTR << "\n";
-	std::cout << &stringREF << "\n";
-
-	std::cout << str << "\n";
-	std::cout << *stringPTR << "\n";
-	std::cout << stringREF << "\n";
-
-	str = "it's now banana";
-	std::cout << str << "\n";
-	std::cout << *stringPTR << "\n";
-	std::cout << stringREF << "\n";
-}
