@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/04 14:06:52 by mlouis            #+#    #+#             */
-/*   Updated: 2025/12/04 14:12:31 by mlouis           ###   ########.fr       */
+/*   Updated: 2025/12/05 09:38:42 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@
 class Weapon
 {
 	public:
+		Weapon(void) {};
+		Weapon(std::string type) : _type(type) {};
 		const std::string&	getType(void);
 		void	setType(const std::string& type);
 	private:
