@@ -6,7 +6,7 @@
 #    By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/05 09:54:30 by mlouis            #+#    #+#              #
-#    Updated: 2025/12/05 10:38:56 by mlouis           ###   ########.fr        #
+#    Updated: 2025/12/10 12:19:42 by mlouis           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,13 +16,12 @@ NAME = ced.out
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRCS = main.cpp #Sed.cpp
-# INCS = Sed.hpp
+SRCS = main.cpp
 OBJS = $(SRCS:%.cpp=%.o)
 
 all: $(NAME)
 
-$(NAME): $(OBJS) # $(INCS)
+$(NAME): $(OBJS)
 	$(CC) $(CFLAGS) $(OBJS) -o $@
 
 %.o: %.cpp
