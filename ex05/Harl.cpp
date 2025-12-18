@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 09:17:19 by mlouis            #+#    #+#             */
-/*   Updated: 2025/12/18 17:56:02 by mlouis           ###   ########.fr       */
+/*   Updated: 2025/12/18 19:02:57 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	Harl::complain(std::string level)
 	{
 		if (level.compare(_lvl[i].name) == 0)
 		{
-			_lvl[i].func();
+			(this->*_lvl[i].func)();
 			return ;
 		}
 	}
