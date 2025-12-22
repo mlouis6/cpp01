@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 09:16:58 by mlouis            #+#    #+#             */
-/*   Updated: 2025/12/10 10:05:37 by mlouis           ###   ########.fr       */
+/*   Updated: 2025/12/22 14:40:48 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 int	main(int argc, char *argv[])
 {
-	if (argc != 2 || argv[1])
+	if (argc != 2)
 	{
 		std::cout << "Error\nCommand should be `./harl [DEBUG|INFO|WARNING|ERROR]`" << std::endl;
 		return (1);

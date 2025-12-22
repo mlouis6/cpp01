@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 09:17:27 by mlouis            #+#    #+#             */
-/*   Updated: 2025/12/18 19:21:27 by mlouis           ###   ########.fr       */
+/*   Updated: 2025/12/22 13:55:38 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <string>
 
-enum Level
+enum e_level
 {
 	DEBUG,
 	INFO,
