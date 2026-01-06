@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/04 13:33:28 by mlouis            #+#    #+#             */
-/*   Updated: 2025/12/04 14:02:54 by mlouis           ###   ########.fr       */
+/*   Updated: 2026/01/06 10:19:25 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,55 @@ int main(void)
 	std::cout << *stringPTR << "\n";
 	std::cout << stringREF << "\n";
 
-	str = "it's now banana";
-	std::cout << str << "\n";
-	std::cout << *stringPTR << "\n";
-	std::cout << stringREF << "\n";
+
+	// std::cout << "****************\n";
+	// str = "it's now banana";
+
+	// std::cout << &str << "\n";
+	// std::cout << stringPTR << "\n";
+	// std::cout << &stringREF << "\n";
+	
+	// std::cout << str << "\n";
+	// std::cout << *stringPTR << "\n";
+	// std::cout << stringREF << "\n";
+
+
+	// std::cout << "****************\n";
+	// stringREF = "oats";
+
+	// std::cout << &str << "\n";
+	// std::cout << stringPTR << "\n";
+	// std::cout << &stringREF << "\n";
+	
+	// std::cout << str << "\n";
+	// std::cout << *stringPTR << "\n";
+	// std::cout << stringREF << "\n";
+
+
+	// std::cout << "****************\n";
+	// *stringPTR = "yoghurt";
+
+	// std::cout << &str << "\n";
+	// std::cout << stringPTR << "\n";
+	// std::cout << &stringREF << "\n";
+	
+	// std::cout << str << "\n";
+	// std::cout << *stringPTR << "\n";
+	// std::cout << stringREF << "\n";
+
+
+	// std::cout << "****************\n";
+	// std::string	str2 = "breakfast club!";
+	// stringPTR = &str2;
+	// std::cout << "str= " << str << "\n";
+	// stringREF = str2;
+
+	// std::cout << &str2 << "\n";
+	// std::cout << stringPTR << "\n";
+	// std::cout << &stringREF << "\n";
+	
+	// std::cout << str2 << "\n";
+	// std::cout << *stringPTR << "\n";
+	// std::cout << stringREF << "\n";
+	// std::cout << str << "\n";
 }

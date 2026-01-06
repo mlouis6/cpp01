@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/04 10:06:38 by mlouis            #+#    #+#             */
-/*   Updated: 2025/12/04 13:20:16 by mlouis           ###   ########.fr       */
+/*   Updated: 2025/12/30 12:23:03 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,15 +20,9 @@ class Zombie
 {
 	public:
 		void announce(void);
-		Zombie() {};
-		Zombie(std::string name) : _name(name) {};
-		~Zombie() { std::cout << _name << " out\n"; };
-		Zombie&	operator=(const Zombie& z) { 
-			if (&z == this)
-				std::cout << "nope\n";
-			std::cout << "banana\n";
-			return (*this);
-		};
+		Zombie();
+		Zombie(std::string name);
+		~Zombie();
 		void	setName(const std::string& name);
 	private:
 		std::string _name;

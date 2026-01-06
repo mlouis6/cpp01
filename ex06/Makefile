@@ -6,13 +6,13 @@
 #    By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/10 09:15:30 by mlouis            #+#    #+#              #
-#    Updated: 2025/12/27 14:36:19 by mlouis           ###   ########.fr        #
+#    Updated: 2026/01/06 10:39:57 by mlouis           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 .PHONY = all clean fclean re
 
-NAME = harl.out
+NAME = harlFilter
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 

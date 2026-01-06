@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 09:17:19 by mlouis            #+#    #+#             */
-/*   Updated: 2025/12/18 19:02:57 by mlouis           ###   ########.fr       */
+/*   Updated: 2026/01/06 10:37:19 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ void	Harl::complain(std::string level)
 			return ;
 		}
 	}
-	std::cout << "Error\nInvalid complain\n";
+	std::cout << "Invalid complain\n";
 }
 
 void	Harl::debug(void)

@@ -6,12 +6,17 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 09:31:48 by mlouis            #+#    #+#             */
-/*   Updated: 2025/12/05 09:51:02 by mlouis           ###   ########.fr       */
+/*   Updated: 2026/01/06 10:21:36 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanB.hpp"
 #include <iostream>
+
+HumanB::HumanB(std::string name) : _name(name), _weapon(NULL)
+{
+	;
+}
 
 void	HumanB::attack(void)
 {

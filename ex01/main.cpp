@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/04 10:45:48 by mlouis            #+#    #+#             */
-/*   Updated: 2025/12/04 13:08:28 by mlouis           ###   ########.fr       */
+/*   Updated: 2026/01/06 10:15:58 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	main(void)
 {
 	int	h_size = 6;
-	Zombie *horde = zombieHorde(h_size, "z");
+	Zombie *horde = zombieHorde(h_size, "Zed");
 	for (int i = 0 ; i < h_size ; i++)
 	{
 		horde[i].announce();

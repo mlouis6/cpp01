@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 09:55:35 by mlouis            #+#    #+#             */
-/*   Updated: 2025/12/17 09:48:51 by mlouis           ###   ########.fr       */
+/*   Updated: 2026/01/06 11:25:57 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ int	main(int argc, char *argv[])
 		return (1);
 	}
 	std::string	line;
-
+	
 	while (std::getline(ifile, line))
 	{
 		if (line.find(argv[2]) == std::string::npos)
@@ -59,7 +59,7 @@ int	main(int argc, char *argv[])
 		std::string	new_line;
 		while ((pos = line.find(argv[2], pos)) != std::string::npos)
 		{
-			new_line.append(line.substr(old_pos, pos));
+			new_line.append(line.substr(old_pos, pos - old_pos));
 			new_line.append(args[3]);
 			pos += args[2].length();
 			old_pos = pos;

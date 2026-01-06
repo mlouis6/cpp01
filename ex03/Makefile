@@ -6,13 +6,13 @@
 #    By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/04 14:03:48 by mlouis            #+#    #+#              #
-#    Updated: 2025/12/27 14:36:19 by mlouis           ###   ########.fr        #
+#    Updated: 2026/01/06 10:23:14 by mlouis           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 .PHONY = all clean fclean re
 
-NAME = moar.out
+NAME = violence.out
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 

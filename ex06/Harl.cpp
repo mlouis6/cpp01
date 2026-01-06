@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 09:17:19 by mlouis            #+#    #+#             */
-/*   Updated: 2025/12/22 14:41:26 by mlouis           ###   ########.fr       */
+/*   Updated: 2026/01/06 10:38:07 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,9 @@ Harl::s_lvl	Harl::_lvl[] = {
 
 void	Harl::complain(std::string level)
 {
-	int size = sizeof(_lvl) / sizeof(struct s_lvl);
 	int i = 0;
 
-	for ( ; i < size ; ++i)
+	for ( ; i < total_LEVEL ; ++i)
 	{
 		if (level.compare(_lvl[i].name) == 0)
 			break ;
@@ -43,7 +42,7 @@ void	Harl::complain(std::string level)
 			(this->*_lvl[ERROR].func)();
 			break ;
 		default:
-			std::cout << "Error\nInvalid complain\n";
+			std::cout << "Invalid complain\n";
 	}
 }
 
