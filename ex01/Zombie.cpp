@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/04 10:36:34 by mlouis            #+#    #+#             */
-/*   Updated: 2026/01/06 10:10:40 by mlouis           ###   ########.fr       */
+/*   Updated: 2026/01/13 13:34:09 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,17 +15,17 @@
 
 Zombie::Zombie(void)
 {
-	// std::cout << "<nameless>: hi\n";
+	std::cout << "<nameless>: hi\n";
 }
 
 Zombie::Zombie(std::string name) : _name(name)
 {
-	// std::cout << _name + ": hello\n";
+	std::cout << _name + ": hello\n";
 }
 
 Zombie::~Zombie(void)
 {
-	// std::cout << _name << " bye\n";
+	std::cout << _name << " bye\n";
 }
 
 void Zombie::announce(void)

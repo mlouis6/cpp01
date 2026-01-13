@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/03 16:14:27 by mlouis            #+#    #+#             */
-/*   Updated: 2025/12/30 12:10:11 by mlouis           ###   ########.fr       */
+/*   Updated: 2026/01/13 13:30:03 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	main(void)
 {
-	Zombie *foo = newZombie("foo");
-	randomChump("bar");
-	delete(foo);
+	Zombie *z = newZombie("Liv");
+	randomChump("Blaine");
+	delete(z);
 	return (0);
 }

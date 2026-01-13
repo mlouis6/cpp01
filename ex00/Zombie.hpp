@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/03 15:33:14 by mlouis            #+#    #+#             */
-/*   Updated: 2026/01/06 10:01:19 by mlouis           ###   ########.fr       */
+/*   Updated: 2026/01/13 13:32:50 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 # define ZOMBIE_HPP
 
 # include <string>
-# include <iostream>
 
 class Zombie
 {

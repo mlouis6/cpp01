@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/04 13:33:28 by mlouis            #+#    #+#             */
-/*   Updated: 2026/01/06 10:19:25 by mlouis           ###   ########.fr       */
+/*   Updated: 2026/01/13 13:41:31 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,10 @@ int main(void)
 	// std::cout << &str2 << "\n";
 	// std::cout << stringPTR << "\n";
 	// std::cout << &stringREF << "\n";
-	
+
+	// std::cout << str2 << "\n";
+	// std::cout << *stringPTR << "\n";
+	// str2 = "whoops";
 	// std::cout << str2 << "\n";
 	// std::cout << *stringPTR << "\n";
 	// std::cout << stringREF << "\n";
