@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 09:55:35 by mlouis            #+#    #+#             */
-/*   Updated: 2026/01/06 15:27:56 by mlouis           ###   ########.fr       */
+/*   Updated: 2026/01/15 16:34:59 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,11 @@ int	main(int argc, char *argv[])
 	{
 		args[i] = argv[i];
 	}
-		
+	if (args[2].empty())
+	{
+		std::cout << "ErrorCan't replace an empty string\n";
+		return (1);
+	}
 	if (sed(args))
 		return (1);
 	return (0);

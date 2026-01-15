@@ -6,7 +6,7 @@
 /*   By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/03 15:40:07 by mlouis            #+#    #+#             */
-/*   Updated: 2026/01/13 13:32:33 by mlouis           ###   ########.fr       */
+/*   Updated: 2026/01/15 16:38:47 by mlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 Zombie::Zombie(std::string name) : _name(name)
 {
-	std::cout << _name << ": hello\n";
+	// std::cout << _name << ": hello\n";
 }
 
 Zombie::~Zombie(void)
