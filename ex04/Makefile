@@ -6,18 +6,19 @@
 #    By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/05 09:54:30 by mlouis            #+#    #+#              #
-#    Updated: 2025/12/27 14:36:19 by mlouis           ###   ########.fr        #
+#    Updated: 2026/01/20 11:07:17 by mlouis           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 .PHONY = all clean fclean re
 
-NAME = ced.out
-CXX = c++
-CXXFLAGS = -Wall -Wextra -Werror -std=c++98
+NAME := ced.out
 
-SRCS = main.cpp
-OBJS = $(SRCS:%.cpp=%.o)
+SRCS := main.cpp
+OBJS := $(SRCS:%.cpp=%.o)
+
+CXX := c++
+CXXFLAGS := -Wall -Wextra -Werror -std=c++98
 
 all: $(NAME)
 
