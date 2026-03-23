@@ -6,11 +6,11 @@
 #    By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/04 13:29:05 by mlouis            #+#    #+#              #
-#    Updated: 2026/01/20 10:57:17 by mlouis           ###   ########.fr        #
+#    Updated: 2026/01/26 14:13:20 by mlouis           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-.PHONY = all clean fclean re
+.PHONY: all clean fclean re
 
 NAME := ptref.out
 CXX := c++

@@ -6,11 +6,11 @@
 #    By: mlouis <mlouis@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/03 15:31:10 by mlouis            #+#    #+#              #
-#    Updated: 2026/01/20 11:52:51 by mlouis           ###   ########.fr        #
+#    Updated: 2026/01/26 14:13:20 by mlouis           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-.PHONY = all clean fclean re
+.PHONY: all clean fclean re
 
 NAME := brainz.out
 
